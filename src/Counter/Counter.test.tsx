@@ -17,19 +17,19 @@ describe('Unit::Counter', () => {
 
     it("should decrement counter", async () => {
         
-        const addElement = screen.getByText('-')
+        const subElement = screen.getByText('-')
         const counterElement = screen.getByTestId('counter')
         
-        await userEvent.click(addElement)
+        await userEvent.click(subElement)
         expect(counterElement.textContent).toBe('0')
     })
 
     it("should reset counter", async () => {
         
-        const addElement = screen.getByText('reset')
+        const resetElement = screen.getByText('reset')
         const counterElement = screen.getByTestId('counter')
         
-        await userEvent.click(addElement)
+        await userEvent.click(resetElement)
         expect(counterElement.textContent).toBe('0')
     })
 })
