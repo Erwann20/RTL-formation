@@ -19,8 +19,10 @@ describe('Unit::Counter', () => {
     })
 
     it("should decrement counter when - button clicked", async () => {
+        const incrementButton = screen.getByText('+')
         const decrementButton = screen.getByText('-')
         const counter = screen.getByTestId('counter')
+        await userEvent.click(incrementButton)
         await userEvent.click(decrementButton)
         expect(counter.textContent).toBe('0')
     })
