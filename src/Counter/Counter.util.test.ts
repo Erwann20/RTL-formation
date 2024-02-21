@@ -9,7 +9,7 @@ describe("Unit::Counter.util", () => {
     expect(result).toBe(expectResult);
   });
 
-  it("formatNegatifNumberToString", () => {
+  it("formatNegativeNumberToString", () => {
     const number = -123;
     const expectResult = "-123";
     const result = formatNumberToString(number);
