@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1708506100128" clover="3.2.0">
-  <project timestamp="1708506100128" name="All files">
+<coverage generated="1708507411785" clover="3.2.0">
+  <project timestamp="1708507411785" name="All files">
     <metrics statements="74" coveredstatements="64" conditionals="9" coveredconditionals="8" methods="8" coveredmethods="7" elements="91" coveredelements="79" complexity="0" loc="74" ncloc="74" packages="2" files="4" classes="4"/>
     <package name="src">
       <metrics statements="27" coveredstatements="17" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="1"/>
@@ -90,8 +90,8 @@
       <file name="Counter.util.ts" path="/Users/hmd/projects/formation/RTL-formation/src/Counter/Counter.util.ts">
         <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="2" count="15" type="stmt"/>
-        <line num="3" count="15" type="stmt"/>
+        <line num="2" count="16" type="stmt"/>
+        <line num="3" count="16" type="stmt"/>
       </file>
     </package>
   </project>
