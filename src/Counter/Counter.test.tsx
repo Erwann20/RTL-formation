@@ -36,4 +36,13 @@ describe("Unit::Counter", () => {
     await userEvent.click(resetElement);
     expect(screen.getByTestId("counter").textContent).toBe("0");
   });
+
+  it("should decrement the counter when the - button is clicked and counter is greater than 0", async () => {
+    const subElement = screen.getByText("-");
+
+    await userEvent.click(screen.getByText("+"));
+
+    await userEvent.click(subElement);
+    expect(screen.getByTestId("counter").textContent).toBe("0");
+  });
 });
